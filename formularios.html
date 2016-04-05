@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>prueba1</title>
+</head>
+
+
+
+<body>
+
+	<form action="hola.php"	method="post">
+
+
+		<fieldset>
+			<select name="tallas">
+				<optgroup label="adultos">
+					<option value="L"> large</option>
+					<option value="m"> medio</option>
+
+				</optgroup></select>
+			</fieldset>
+
+		<fieldset>
+			<legend>Datos Personales</legend>
+			<label for="campo_nombre"> Nombre:</label>
+			<input type="text" name="campo_nombre">
+
+			<label for="campo_correo"> e-mail:</label>
+
+			<input type="email" name="campo_correo" placeholder="ejemplo@example.com">
+			<label for="campo_contraseña"> contraseña: </label>
+			<input type="password" name="campo_contraseña">
+			hombre <input type="radio" name="sexo" id="H"> <!-- deben tener el mismo nombre para que se deseleccinen-->
+			mujer <input type="radio" name="sexo" id="M">
+		</fieldset>
+
+		<fieldset>
+
+			<textarea></textarea>
+			<legend>Eduación</legend>
+		</fieldset>
+
+		<fieldset>
+			<legend>Experiencia Laboral</legend>
+			<input type="submit" value="Enviar formulario">
+		</fieldset>
+
+
+	</form>
+
+</body>
+
+
+
+</html>
